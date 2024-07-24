@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moso Interior - HTML CSS Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- style CSS -->
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f4f4f4;
+        }
+        .navbar-brand span {
+            color: #e74c3c;
+        }
+        .hero-section {
+            background: url('images/living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero-section .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #333; /* Darker shade */
+        }
+        .hero-section .hero-subtitle {
+            color: #333; /* Match the color with the hero-title */
+        }
+        .hero-section .hero-form {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .section-title {
+            margin-bottom: 40px;
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .site-footer {
+            background: #333;
+            color: #fff;
+            padding: 40px 0;
+        }
+        .site-footer a {
+            color: #fff;
+        }
+        .card-img-top {
+            height: 250px; /* Set a fixed height for the images */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">Moso <span>Interior</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#section_1">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_2">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_3">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_4">Reviews</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_5">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <section class="hero-section" id="section_1">
+        <div class="container">
+            <h1 class="hero-title">Welcome to Moso Interior</h1>
+            <p class="hero-subtitle">Decorate a beautiful interior for your space</p>
+            <form class="custom-form hero-form" action="#" method="get" role="form">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="product-name">Product</label>
+                            <input type="text" name="product-name" id="product-name" class="form-control" placeholder="Bathroom, Living Room..." required>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-12">
+                        <div class="form-group">
+                            <label for="price-range">Price</label>
+                            <select name="price-range" class="form-select" id="price-range" aria-label="Default select example">
+                                <option value="500" selected>$500 to $990</option>
+                                <option value="1000">$1,000 - 2,900</option>
+                                <option value="3000">$3,000 - 5,000</option>
+                                <option value="5000">$5,000 - 10,000</option>
+                                <option value="11000">$11,000 - 25,000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <button type="submit" class="btn btn-danger btn-block">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="about-section" id="section_2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Since 1986, We crafted interior products for better spaces. Moso Interior is a free Bootstrap 5 HTML CSS template for your website. Tooplate is one of the best websites to download 100% free HTML Templates for web designers and developers around the world. Thank you for visiting.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/sharing-design-ideas-with-family.jpg" class="img-fluid" alt="About Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-section" id="section_3">
+        <div class="container">
+            <h2 class="section-title text-center">Interior Products</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card">
+                        <img src="images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg" class="card-img-top" alt="Bathroom">
+                        <div class="card-body">
+                            <h5 class="card-title">Bathroom</h5>
+                            <p class="card-text">$3,600</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card">
+                        <img src="images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg" class="card-img-top" alt="Dining">
+                        <div class="card-body">
+                            <h5 class="card-title">Dining</h5>
+                            <p class="card-text">$6,400</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card">
+                        <img src="images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg" class="card-img-top" alt="Living Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Living Room</h5>
+                            <p class="card-text">$2,400</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews-section" id="section_4">
+        <div class="container">
+            <h2 class="section-title text-center">Reviews</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/avatar/pretty-blonde-woman-wearing-white-t-shirt.jpg" class="card-img-top" alt="Sandy">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandy</h5>
+                            <p class="card-text">Moso Interior is the most suitable website layout.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/avatar/studio-portrait-emotional-happy-funny-smiling-boyfriend-man-with-heavy-beard-stands-with-arms-crossed-dressed-red-t-shirt-isolated-blue.jpg" class="card-img-top" alt="Jack">
+                        <div class="card-body">
+                            <h5 class="card-title">Jack</h5>
+                            <p class="card-text">Explore more HTML Templates to download for your website.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/avatar/portrait-beautiful-young-woman-standing-grey-wall.jpg" class="card-img-top" alt="Helen">
+                        <div class="card-body">
+                            <h5 class="card-title">Helen</h5>
+                            <p class="card-text">Please recommend Tooplate website to your friends.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="section_5">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <form action="#" method="post" role="form">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" class="form-control" placeholder="Jack" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" rows="6" class="form-control" id="message" placeholder="What can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <h3>Store</h3>
+                    <p><i class="bi-geo-alt"></i> 102 Utah Road, Berlin, Germany</p>
+                    <h3>Contact Info</h3>
+                    <p><i class="bi-telephone"></i> <a href="tel:090-080-0760">090-080-0760</a></p>
+                    <p><i class="bi-envelope"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+                    <iframe class="google-map mt-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4800.184803804974!2d-0.10174304922518053!3d51.5087879746898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487605f6fc62fa3d%3A0xc5a39e7cf4e3a9a4!2sTate%20Modern%20Garden!5e1!3m2!1sen!2smm!4v1679331839559!5m2!1sen!2smm" width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h3>Moso Interior</h3>
+                <p>Since 1986, We crafted interior products for better spaces.</p>
+            </div>
+            <div class="col-lg-3 ms-auto">
+                <h3>Store</h3>
+                <p><i class="bi-geo-alt"></i> Berlin, Germany</p>
+            </div>
+            <div class="col-lg-3">
+                <h3>Contact Info</h3>
+                <p><i class="bi-telephone"></i> <a href="tel:090-080-0760">090-080-0760</a></p>
+                <p><i class="bi-envelope"></i> <a href="mailto:info@company.com">info@company.com</a></p>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center justify-content-center mt-4">
+                <p class="mb-0">&copy; Moso Interior 2048</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
